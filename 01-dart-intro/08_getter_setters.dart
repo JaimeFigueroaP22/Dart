@@ -11,11 +11,11 @@ void main() {
 
 class Square
 {
-  double _side ;
+  double _side ; //variable cerradoa solo para usarse en la clase
 
 
   Square ({ required double side })
-    : assert(side >= 0, 'side must be >= 0'),  
+    : assert(side >= 0, 'side must be >= 0'),  //modo para poner condiciones cuando entran variables
        _side = side ; 
 
 
